@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Flipper || Simple</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="/dist/output.css" />
+  </head>
+
+  <body>
+    <nav class="grid place-items-center border-b py-2 shadow-xl bg-white">
+      <div class="container mx-auto flex justify-between">
+        <a class="text-lg text-cyan-500">Color Flipper</a>
+        <ul class="flex text-xl">
+          <li class="hover:text-cyan-500"><a href="index.html">Simple</a></li>
+          <li class="mx-6 hover:text-cyan-500">
+            <a href="hex.html">Hex</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main class="grid place-items-center min-h-screen">
+      <section class="text-center">
+        <div class="bg-black text-white p-4 rounded-lg">
+          <h1 class="text-4xl font-bold lg:text-6xl">
+            Background Color : <span class="text-blue-600 color">#F1F5F8</span>
+          </h1>
+        </div>
+        <button
+          id="btn"
+          class="my-6 border-2 border-black py-2 px-8 rounded-lg font-medium tracking-widest transition duration-700 hover:bg-black hover:text-white"
+        >
+          CLICK ME
+        </button>
+      </section>
+    </main>
+    <!-- javascript -->
+    <script src="hex.js"></script>
+  </body>
+</html>
